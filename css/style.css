@@ -1,0 +1,179 @@
+
+  :root {
+    --main-bg-color: brown;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  a{
+      text-decoration: none; /* remove o sublinhado dos links */
+      color: black; /* altera a cor de todos os links das páginas */
+  }
+  /*====================================================================FORMATACAO DO TOPO
+  ===================================================================*/
+  header{
+    padding: 3vw 10vw 3vw 10vw;
+  }
+  header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  header nav ul{
+    display: flex;
+  }
+  header nav ul li{
+    margin: 0 10px;
+  }
+  header nav ul li.home a{
+    color: #FB2E86;
+  }
+  /*====================================================================FORMATACAO DO CORPO
+  ===================================================================*/
+  .banner{
+    display: flex;
+    background-color: #f2f0ff;
+    padding: 3vw 10vw 3vw 10vw ;
+  }
+
+  .banner h2{
+    font-weight: bold;
+  }
+
+  .banner div p.destaque{
+    color: #FB2E86;
+    font-weight: bold;
+  }
+
+  .banner h2{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .banner div h3{
+    color: #8A8FB9;
+  }
+
+  .banner p button {
+    background-color:#FB2E86;
+    border-radius: 0.3rem;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    margin: 10px 0 0 0;
+  }
+
+  .banner.imagens img{
+    width: 40%;
+    margin: 0 0 0 10px;
+  }
+
+  /*====================================================================FORMATACAO DO CORPO
+  ===================================================================*/
+  .produtos{
+    padding: 3vw 10vw 3vw 10vw;
+  }
+
+  .produtos h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #151875;
+    margin: 10px 5px 10px 5px;
+  }
+
+  .produtos ul{
+    display: flex;
+    flex-wrap:wrap ;
+  }
+
+  .produtos ul li img{
+    justify-content: space-between;
+    background-color: #F7F7F7 ;
+  }
+
+  .produtos ul li{
+    width: 30%;
+  }
+
+  .produtos ul li p{
+    background-color: #F7F7F7;
+    text-align: center;
+  }
+
+  .produtos ul li h3{
+    color: #151875;
+  }
+
+
+  .invite{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.9rem;
+    padding: 5vw 20vw;
+    background: url(/src/back-section-update.png);
+    background-position: center;
+  }
+
+  .invite h2{
+    padding: 3vw 10vw;
+    color: #151875;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .invite p button{
+    background-color: #FB2E86;
+    border-radius: 0.3rem;
+    font-size: medium;
+    font-weight: 100;
+    padding: 10px 20px;
+    color: white;
+  }
+
+
+  /*====================================================================FORMATACAO DO FOOTER
+  ===================================================================*/
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+  }
+
+  footer div.primeiro{
+    align-items: left;
+    text-align: left;
+  }
+
+  footer div.primeiro p{
+    margin: 1vw 0 0 0 ;
+  }
+
+  footer div.primeiro h2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 0 0 20px 0;
+  }
+
+  footer div.segundo h2{
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+
+  footer div.segundo a{
+    color: #8A8FB9;
+  }
+
+  footer div.segundo ul li{
+    margin: 0.6vw 0 0 0;
+  }
+
+  footer div p{
+    color: #8A8FB9;
+  }
+
+  footer{
+    background-color: #EEEFFB;
+  }
